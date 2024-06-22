@@ -41,7 +41,7 @@ void setup() // Code only runs once
 void loop() // Code runs forever
 {
   distance = sensordata();
-  if(distance < 20) // Car stops when sensor detects object within 50cm
+  if(distance < 20) // Car stops when sensor detects object within 20cm
   {
     stop(); //stops the car 
     delay(1000);
